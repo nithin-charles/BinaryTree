@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc2b4af-6413-409c-855f-e7b5744ae85c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinaryTree.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinaryTree.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TreeNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+    <list default="true" id="1cc2b4af-6413-409c-855f-e7b5744ae85c" name="Changes" comment="DFS and BFS">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BinaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BinaryTree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.BinaryTree.executor": "Debug",
+    ".NET Project.BinaryTree.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -79,8 +75,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735552039818</updated>
-      <workItem from="1735552041277" duration="3812000" />
+      <workItem from="1735552041277" duration="10864000" />
     </task>
+    <task id="LOCAL-00001" summary="DFS and BFS">
+      <option name="closed" value="true" />
+      <created>1735562875484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735562875484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,22 +95,102 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="DFS and BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS and BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>82</line>
+          <line>90</line>
           <properties documentPath="C:\Training\Personal\CSHARP\BinaryTree\Program.cs" containingFunctionPresentation="Local function 'BreadthFirstSearch'">
             <startOffsets>
-              <option value="1780" />
+              <option value="2026" />
             </startOffsets>
             <endOffsets>
-              <option value="1792" />
+              <option value="2038" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>98</line>
+          <properties documentPath="C:\Training\Personal\CSHARP\BinaryTree\Program.cs" containingFunctionPresentation="Local function 'IterativePreOrder'">
+            <startOffsets>
+              <option value="2141" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2158" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>118</line>
+          <properties documentPath="C:\Training\Personal\CSHARP\BinaryTree\Program.cs" containingFunctionPresentation="Local function 'IterativePreOrder'">
+            <startOffsets>
+              <option value="2628" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2640" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>145</line>
+          <properties documentPath="C:\Training\Personal\CSHARP\BinaryTree\Program.cs" containingFunctionPresentation="Local function 'IterativePostOrder'">
+            <startOffsets>
+              <option value="3226" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3238" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>28</line>
+          <properties documentPath="C:\Training\Personal\CSHARP\BinaryTree\Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="707" />
+            </startOffsets>
+            <endOffsets>
+              <option value="760" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>154</line>
+          <properties documentPath="C:\Training\Personal\CSHARP\BinaryTree\Program.cs" containingFunctionPresentation="Local function 'IterativePostOrder'">
+            <startOffsets>
+              <option value="3358" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3375" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>174</line>
+          <properties documentPath="C:\Training\Personal\CSHARP\BinaryTree\Program.cs" containingFunctionPresentation="Local function 'IterativePostOrder'">
+            <startOffsets>
+              <option value="3844" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3867" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
